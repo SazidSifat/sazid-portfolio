@@ -1,0 +1,46 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
+@plugin "daisyui";
+
+@plugin "daisyui/theme" {
+  name: "light";
+  default: true;
+
+  --color-base-100: #F7F8FA;
+  --color-base-200: #E6E8EB;
+  --color-base-300: #D1D4D8;
+  --color-base-content: #1B1B1B;
+  --color-primary: #B552E5;
+  --color-primary-content: #EEEEEE;
+  --color-secondary: #00D9C0;
+  --color-secondary-content: #141414;
+  --color-accent: #FFD447;
+  --color-accent-content: #141414;
+}
+
+@plugin "daisyui/theme" {
+  name: "dark";
+  default: false;
+
+
+  --color-base-100: #141414;
+  --color-base-200: #1E1E1E;
+  --color-base-300: #2A2A2A;
+  --color-base-content: #EEEEEE;
+  --color-primary: #B552E5;
+  --color-primary-content: #FFFFFF;
+  --color-secondary: #00D9C0;
+  --color-secondary-content: #F7F8FA;
+  --color-accent: #FFD447;
+  --color-accent-content: #141414;
+}
+
+
+body{
+  /* font-family: "Nunito", sans-serif; */
+  /* font-family: "Lora", serif; */
+  font-family: "Raleway", sans-serif;
+}
