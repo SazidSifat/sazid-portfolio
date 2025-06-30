@@ -36,9 +36,9 @@ const Education = () => {
                         data-aos-delay={index * 100} 
                     >
                         <h3 className="text-2xl font-semibold text-primary">{degree}</h3>
-                        <p className="mt-1 text-lg font-medium text-gray-300">{school}</p>
+                        <p className="mt-1 text-lg font-medium text-base-content/70">{school}</p>
                         <p className="mt-1 text-sm text-gray-400 italic">{year}</p>
-                        <p className="mt-4 text-gray-200 leading-relaxed">{description}</p>
+                        <p className="mt-4 text-base-content/80 leading-relaxed">{description}</p>
                     </div>
                 ))}
             </div>

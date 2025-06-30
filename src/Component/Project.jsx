@@ -25,12 +25,12 @@ const Project = ({ project, id }) => {
                     whileHover={{ scale: 1.07 }} src={project.image} alt={project.title} className=" w-[90%]  md:w-[90%] rounded-lg shadow" />
             </div>
 
-            
+
             <div className="w-full md:w-1/2 rounded-2xl p-6 bg-base-100 hover:shadow-xl transition-shadow">
                 <h3 className="text-2xl font-semibold text-base-content mb-2">{project.title}</h3>
                 <p className="text-base-content/80 mb-4">{project.description}</p>
 
-              
+
                 <div className="flex flex-wrap gap-2 mb-6">
                     {
                         project.tech.map((tech, i) => (
@@ -45,6 +45,8 @@ const Project = ({ project, id }) => {
                     }
 
                 </div>
+
+                
 
 
                 <div className="flex flex-wrap gap-3">
@@ -70,7 +72,7 @@ const Project = ({ project, id }) => {
                         href={project.serverLink || project.codeLink}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="flex items-center gap-2 py-2.5 px-6 bg-accent/60 text-black font-medium rounded-xl hover:brightness-110 shadow transition"
+                        className="flex items-center gap-2 py-2.5 px-6 bg-accent/80 text-white font-medium rounded-xl hover:brightness-110 shadow transition"
                     >
                         <VscServer size={18} />
                         Server

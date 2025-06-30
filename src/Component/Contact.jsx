@@ -44,7 +44,7 @@ const Contact = () => {
     };
 
     return (
-        <div className='container mx-auto px-4 py-12' data-aos="fade-up">
+        <div className='container mx-auto px-4 py-12' >
             <div className='flex flex-col sm:flex-row items-center gap-4 mb-8'>
                 <p className='text-4xl font-bold text-primary whitespace-nowrap'>
                     &#60; Contact Me / &#62;
@@ -53,7 +53,7 @@ const Contact = () => {
             </div>
 
             <div className='grid grid-cols-1 md:grid-cols-2 gap-10 backdrop-blur-md p-6 rounded-2xl border border-white/10 shadow-md'>
-                <div className='space-y-6 text-gray-200' data-aos="fade-right">
+                <div className='space-y-6 text-gray-200' >
                     <h3 className='text-2xl font-semibold text-primary'>Get in Touch</h3>
                     <p>Feel free to reach out to me for collaborations, project discussions, or just to say hello.</p>
                     <div className='space-y-2 text-lg'>
@@ -88,7 +88,7 @@ const Contact = () => {
                     className='space-y-4'
                     ref={form}
                     onSubmit={sendEmail}
-                    data-aos="fade-left"
+                
                 >
                     <div>
                         <label className='block text-white font-medium'>Name</label>

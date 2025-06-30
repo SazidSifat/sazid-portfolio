@@ -44,7 +44,6 @@ const Projects = () => {
       </div>
 
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-4xl font-bold text-cente mb-12">My Projects</h2>
         <div className="space-y-10">
           {projects.map((project, index) => (
             <Project project={project} key={index} id={index % 2 !== 0} />
